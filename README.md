@@ -151,5 +151,9 @@ Here's a comparison of the different image generation techniques I explored:
 | **Historical Era**       | ~2015-2016                         | ~2014 onwards (DCGANs ~2015)         | ~2013-2014 onwards            | ~2020 onwards for major breakthroughs (DDPM, Stable Diffusion) |
 
 
-
+**Potential Next Steps for This Project:**
+*   **Fine-tuning:** Experiment with fine-tuning a pre-trained diffusion model on a custom dataset.
+*   **Scheduler Exploration:** Investigate the impact of different schedulers (e.g., DDIM, PNDM) on inference speed and quality in diffusion models.
+*   **Architectural Variations:** Implement or explore more advanced GAN (e.g., StyleGAN) or VAE architectures.
+*   **Quantitative Evaluation:** Integrate metrics like FID (Fréchet Inception Distance) to objectively compare outputs.
 
