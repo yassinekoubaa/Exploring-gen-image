@@ -1,10 +1,9 @@
 # Exploring AI Image Generation: A Hands-On Look at Key Techniques
 
-This repository documents my exploration into various AI techniques for image generation, implemented and explained within a Google Colab notebook. The goal is to understand the underlying principles, compare different model architectures, and demonstrate their capabilities.
+This repository documents my exploration into various AI techniques for image generation.
+The goal is to understand the underlying principles, compare different model architectures, and demonstrate their capabilities.
 
 ## Techniques Covered:
-
-The notebook provides explanations and simplified code examples for:
 
 1.  **Neural Style Transfer (NST):** Transferring artistic styles using pre-trained CNNs.
 2.  **Generative Adversarial Networks (GANs):** A DCGAN implementation showcasing adversarial learning for novel image synthesis.
