@@ -26,10 +26,10 @@ Neural Style Transfer allows us to take the *content* of one image and render it
 *   **Cons:** Requires explicit content and style reference images; it manipulates existing images rather than generating entirely novel concepts from a latent space. The process can be computationally intensive for high-resolution images.
 *   **Prominence:** Gained significant attention around 2015-2016.
 
-![image](https://github.com/user-attachments/assets/3d76b7f5-f059-47a1-bc66-a08daa34e587)
+![image](https://github.com/user-attachments/assets/fedf8a5a-8aed-494a-828f-e2c76b044206)
 
 
-#### Key Takeaway
+## Key Takeaway
 
 ![image](https://github.com/user-attachments/assets/4f902539-673a-4f96-8295-f29644a30294)
 
