@@ -17,3 +17,17 @@ The goal is to understand the underlying principles, compare different model arc
 *   **Comparative Analysis:** Discussing the pros and cons of each technique regarding image quality, training dynamics, and controllability.
 *   **Future Directions:** Outlining potential project enhancements and broader research trends in the field.
 
+## 1. Neural Style Transfer (NST): Artistic Recomposition
+
+Neural Style Transfer allows us to take the *content* of one image and render it in the *style* of another. Think of it as an AI "painter" that can mimic artistic styles.
+
+*   **Core Idea:** It leverages pre-trained Convolutional Neural Networks (CNNs, often VGG). The model extracts content representations from deeper layers of the CNN and style representations (correlations between filter activations across multiple layers) from earlier layers. An optimization process then iteratively updates a target image to minimize both content loss (difference from the content image's features) and style loss (difference from the style image's style features).
+*   **Pros:** Visually impressive results, demonstrates the power of learned CNN features for understanding image characteristics, doesn't require training a generative model from scratch.
+*   **Cons:** Requires explicit content and style reference images; it manipulates existing images rather than generating entirely novel concepts from a latent space. The process can be computationally intensive for high-resolution images.
+*   **Prominence:** Gained significant attention around 2015-2016.
+  
+![image](https://github.com/user-attachments/assets/45525e0b-7e51-4510-b6e4-c9d0c448f0ae)
+
+### Key Takeaway
+
+NST was an early demonstration of AI's ability to "understand" and manipulate image content based on learned features. It offered an intuitive way to transfer artistic styles. However, it's primarily an image recomposition technique, not true generation. Furthermore, achieving optimal results often requires significant manual hyperparameter tuning (style and content weights). We're now moving on to more sophisticated generative models that create entirely new images from learned distributions without relying on explicit content images, offering a more direct path to AI-driven creative image synthesis.
