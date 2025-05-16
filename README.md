@@ -25,8 +25,9 @@ Neural Style Transfer allows us to take the *content* of one image and render it
 *   **Pros:** Visually impressive results, demonstrates the power of learned CNN features for understanding image characteristics, doesn't require training a generative model from scratch.
 *   **Cons:** Requires explicit content and style reference images; it manipulates existing images rather than generating entirely novel concepts from a latent space. The process can be computationally intensive for high-resolution images.
 *   **Prominence:** Gained significant attention around 2015-2016.
-  
-![image](https://github.com/user-attachments/assets/45525e0b-7e51-4510-b6e4-c9d0c448f0ae)
+
+![image](https://github.com/user-attachments/assets/3d76b7f5-f059-47a1-bc66-a08daa34e587)
+
 
 ### Key Takeaway
 
