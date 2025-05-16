@@ -29,7 +29,7 @@ Neural Style Transfer allows us to take the *content* of one image and render it
 ![image](https://github.com/user-attachments/assets/fedf8a5a-8aed-494a-828f-e2c76b044206)
 
 
-## Key Takeaway
+## Key Takeaway - Neural Style Transfer (NST)
 
 ![image](https://github.com/user-attachments/assets/4f902539-673a-4f96-8295-f29644a30294)
 
@@ -45,6 +45,18 @@ GANs introduced a groundbreaking framework for image generation based on a "game
 *   **Pros:** Capable of generating sharp, high-fidelity novel images. Revolutionized the field of generative modeling.
 *   **Cons:** Training can be notoriously unstable (e.g., mode collapse, where G produces limited variety; vanishing gradients). Requires careful tuning of architectures and hyperparameters.
 *   **Prominence:** Introduced in 2014 by Ian Goodfellow et al. DCGANs (Deep Convolutional GANs) in 2015 provided more stable architectures.
+
+  ![image](https://github.com/user-attachments/assets/9a46e321-a6df-4183-8344-ba87624d2fc1)
+
+This plot illustrates the adversarial learning dynamics: both Generator (G) and Discriminator (D) losses fluctuate as they compete. While their overall trends might be similar, the G loss often appears more variable, reflecting its challenging task of consistently fooling an improving Discriminator.
+
+![image](https://github.com/user-attachments/assets/9a709134-781a-4c3a-a66e-a1b8cfb1d475)
+
+The generated "fake" images, while not perfectly clear, demonstrate the GAN's success in synthesizing a diversity of novel digit-like forms from random noise, capturing the essence of the MNIST dataset. Further hyperparameter tuning or more training epochs would likely refine these generated digits, improving their clarity and realism.
+
+## Key Takeaway - Generative Adversarial Networks (GANs)
+
+GANs marked a significant leap in AI's ability to truly generate novel images from random latent noise, moving beyond the manipulation focus of techniques like NST. The adversarial process between a Generator and a Discriminator, while innovative and capable of producing sharp results, often presents considerable training challenges, including instability and mode collapse. While foundational and powerful, these practical difficulties in consistently achieving diverse, high-quality outputs motivate the exploration of alternative generative architectures like VAEs and the more recent, robust Diffusion Models.
 
 ### 3. Variational Autoencoders (VAEs): Learning a Smooth Picture Space
 
