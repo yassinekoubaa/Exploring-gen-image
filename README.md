@@ -29,7 +29,7 @@ Neural Style Transfer allows us to take the *content* of one image and render it
 ![image](https://github.com/user-attachments/assets/fedf8a5a-8aed-494a-828f-e2c76b044206)
 
 
-## Key Takeaway - Neural Style Transfer (NST)
+### Key Takeaway - Neural Style Transfer (NST)
 
 ![image](https://github.com/user-attachments/assets/4f902539-673a-4f96-8295-f29644a30294)
 
@@ -54,7 +54,7 @@ This plot illustrates the adversarial learning dynamics: both Generator (G) and 
 
 The generated "fake" images, while not perfectly clear, demonstrate the GAN's success in synthesizing a diversity of novel digit-like forms from random noise, capturing the essence of the MNIST dataset. Further hyperparameter tuning or more training epochs would likely refine these generated digits, improving their clarity and realism.
 
-## Key Takeaway - Generative Adversarial Networks (GANs)
+### Key Takeaway - Generative Adversarial Networks (GANs)
 
 GANs marked a significant leap in AI's ability to truly generate novel images from random latent noise, moving beyond the manipulation focus of techniques like NST. The adversarial process between a Generator and a Discriminator, while innovative and capable of producing sharp results, often presents considerable training challenges, including instability and mode collapse. While foundational and powerful, these practical difficulties in consistently achieving diverse, high-quality outputs motivate the exploration of alternative generative architectures like VAEs and the more recent, robust Diffusion Models.
 
@@ -92,7 +92,7 @@ he VAE demonstrates its ability to learn a compressed representation of the smil
 
 These novel smiley faces are entirely synthesized by the VAE's decoder from randomly sampled points in its learned latent space. They showcase the model's generative capability, producing new variations that capture the overall "smiley" characteristics and even hint at different expressions, demonstrating an understanding beyond simple memorization.
 
-## Key Takeaway - Variational Autoencoders (VAEs)
+### Key Takeaway - Variational Autoencoders (VAEs)
 
 VAEs offer a stable and principled probabilistic approach to generative modeling, learning a smooth latent space that's effective for both reconstructing input images and generating novel, plausible variations (like our diverse smiley faces). While often producing slightly softer outputs than GANs, their ease of training and the interpretable nature of their latent representations make them a valuable tool for understanding and synthesizing data.  
 
