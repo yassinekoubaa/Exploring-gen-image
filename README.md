@@ -29,7 +29,7 @@ Neural Style Transfer allows us to take the *content* of one image and render it
 ![image](https://github.com/user-attachments/assets/3d76b7f5-f059-47a1-bc66-a08daa34e587)
 
 
-*   ** Key Takeaway
+#### Key Takeaway
 
 ![image](https://github.com/user-attachments/assets/4f902539-673a-4f96-8295-f29644a30294)
 
