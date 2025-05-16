@@ -31,4 +31,7 @@ Neural Style Transfer allows us to take the *content* of one image and render it
 
 ### Key Takeaway
 
+![image](https://github.com/user-attachments/assets/1d74f73c-4b16-4f1b-81e8-c113b7f57321)
+
+
 NST was an early demonstration of AI's ability to "understand" and manipulate image content based on learned features. It offered an intuitive way to transfer artistic styles. However, it's primarily an image recomposition technique, not true generation. Furthermore, achieving optimal results often requires significant manual hyperparameter tuning (style and content weights). We're now moving on to more sophisticated generative models that create entirely new images from learned distributions without relying on explicit content images, offering a more direct path to AI-driven creative image synthesis.
